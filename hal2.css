@@ -1,0 +1,119 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #A59D84; 
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+    color: #333; 
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  
+    background-color: #E5E1DA;
+  }
+  .profile-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+    object-fit: cover;
+    margin-left: auto; 
+}
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #A59D84; 
+    padding: 10px 20px;
+    z-index: 1000;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+  }
+  nav ul li {
+    margin-right: 20px;
+  }
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+    
+    nav ul li a:hover {
+      color: #ECEBDE; 
+      text-decoration: underline;  
+   }
+
+   h2{
+    text-align: center;
+   }
+
+   .sertifikat {
+    background-color: #D7D3BF; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
+    max-width: 700px; 
+    margin: 20px auto;
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    gap: 20px; 
+    text-align: left; 
+    animation: fadeIn 1s ease-in-out; 
+}
+
+.sertifikat img {
+    margin-right: 15px; 
+    border: 2px solid #ccc; 
+    border-radius: 8px; 
+}
+
+.deskripsi h3 {
+    margin: 0 0 5px 0; 
+    font-size: 1.2em;
+    color: #333;
+}
+
+.deskripsi p {
+    margin: 0; 
+    color: #666;
+    line-height: 1.5; 
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+footer {
+  position: fixed; 
+  bottom: 0; 
+  left: 0; 
+  width: 100%; 
+  background-color: #333; 
+  color: #fff; 
+  text-align: center; 
+  padding: 10px auto; 
+  z-index: 1000; 
+}
+  
+  .socials a {
+    color: white;
+    margin: 0 10px;
+    font-size: 20px;
+  }
+  .socials a:hover {
+    color: #ff6b6b;
+  }

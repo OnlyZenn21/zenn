@@ -1,0 +1,110 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #A59D84; 
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+    color: #333; 
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #E5E1DA;
+  }
+  .profile-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+    object-fit: cover;
+    margin-left: auto; 
+}
+
+section#contact{
+  text-align: center;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background-color: #A59D84; 
+  padding: 10px 20px;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  margin-right: 20px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+  
+  nav ul li a:hover {
+    color: #ECEBDE; 
+    text-decoration: underline;  
+ }
+
+   form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form label {
+    margin: 0.5rem 0 0.2rem;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+ input:focus, textarea:focus {
+    border-color: #ECEBDE;
+    outline: none;
+    box-shadow: 0 0 5px #ECEBDE;
+  }
+
+  button, nav ul li a {
+    transition: all 0.3s ease;
+}
+  button:hover, nav ul li a:hover {
+    background-color: #D7D3BF;
+    color: #fff;
+    transform: scale(1.1);
+}
+footer {
+  position: fixed; 
+  bottom: 0; 
+  left: 0; 
+  width: 100%; 
+  background-color: #333; 
+  color: #fff; 
+  text-align: center; 
+  padding: 10px auto; 
+  z-index: 1000; 
+}
+
+
+
+.socials a {
+  color: white;
+  margin: 0 10px;
+  font-size: 20px;
+}
+.socials a:hover {
+  color: #ff6b6b;
+}
